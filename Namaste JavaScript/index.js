@@ -1,14 +1,14 @@
-
-/*// console.log(a);
+Codes for each lectures addes ->
+console.log(a);
 var a;
 
 console.log(a);
 a = 10;
 
-// function name(){
-//     var x = 10;
-// }
-// console.log(window.a);
+function name(){
+    var x = 10;
+}
+console.log(window.a);
 
 if( a === undefined){
     console.log("success");
@@ -16,10 +16,10 @@ if( a === undefined){
 else {
     console.log("not undefined")
 }
-*/
 
-//ep - 7 scope chain and lexical environment
-/*
+
+ep - 7 scope chain and lexical environment
+
 function a(){
     var b = 10;
     c();
@@ -29,31 +29,31 @@ function a(){
 }
 a();
 console.log(b);
-*/
 
-/* ep - 8 lets, const and Temporal Dead zone
-// console.log(x);
-// let a = 10;
-// console.log(a);
-// var b = 100;
-// var b = 1000;
-// console.log(b);
 
-// console.log(x);
+ ep - 8 lets, const and Temporal Dead zone
+console.log(x);
+let a = 10;
+console.log(a);
+var b = 100;
+var b = 1000;
+console.log(b);
+
+console.log(x);
 let a;
 console.log(b);
 var b= 8;
-// b =100;
+b =100;
 
-// b = 100;
+b = 100;
 
-// a = 10;
+a = 10;
 console.log(a);
 
-*/
 
 
-/*ep 9 -  block scope and shadowing 
+
+ep 9 -  block scope and shadowing 
 const c = 55;
 {
     var a = 100;
@@ -80,18 +80,18 @@ const c = 20;
             }
             
     }
-*/
-/*
+
 var b = 100;
 {
     let b = 120;
     console.log(b);
 }
 console.log(b);
-*/
 
-// ep 10 - closures in js 
-/*
+
+
+ ep 10 - closures in js 
+
 
 function a(){
     var a = 17;
@@ -119,10 +119,10 @@ function z(){
   
 }
 z();
-*/
 
-// ep 11 - setTimeOuts and closures Interview questions
-/*
+
+ ep 11 - setTimeOuts and closures Interview questions
+
 function x(){
     
     for(let i=1; i<6;i++){
@@ -141,65 +141,65 @@ function x(){
 
     console.log("Namaste bhavesh!")
 }
-x();  */
+x();  
 
 
-// ep 13- First class functions and many more
+ep 13- First class functions and many more
 
 
-//function statements aka Function Declaration
+function statements aka Function Declaration
 
-// a();
-//  b();
-// function a(){
-//     console.log("a called");
-// }
+a();
+ b();
+function a(){
+    console.log("a called");
+}
 
-// // a();
-// //function expressions 
-// var b = function (){
-//     console.log("b called");
-// }
+a();
+function expressions 
+var b = function (){
+    console.log("b called");
+}
 
-// b();
+b();
 
-//Anonymous function with no name
-// function (){
-// }
-// they are used when they are treated as values
+Anonymous function with no name
+function (){
+}
+they are used when they are treated as values
 
-//Named Function Expression
-/*
+Named Function Expression
+
 var b = function xyz(){
     console.log("named func expression called");
 }
 b();
-xyz(); */ //important error message
+xyz();  //important error message
 
 //diff in paramters & arguments
-/*
+
 function name( paramters){
 
 }
 
-name(arguments);  */
+name(arguments);  
 
 
 //First Class Functions
-/*
+
 var b = function (param1){
     return function xyz(){
 
     }
 }
-console.log( b()); */
+console.log( b()); 
 
 // first class citizens is ability to be used like values
 // passed inside funcn and returned from funcn used to assign into variable
 
 
-// ep-14 Callback Functions in JS ft. Event Listeners 
-/*
+ep-14 Callback Functions in JS ft. Event Listeners 
+
 setTimeout(function (){
     console.log("timer");
 },5000);
@@ -209,10 +209,10 @@ function x(y){
 }
 x( function y(){
     console.log("y");
-}); */
+});
 
 //Deep about event listeners
-/*
+
 function AttachList() {
     let count = 0;
     document.getElementById("clickMe")
@@ -221,10 +221,10 @@ function AttachList() {
     });
     
 }
-AttachList();*/
+AttachList();
 
-// Ep - 15 Trust Issues with SetTimeout 
-/*
+Ep - 15 Trust Issues with SetTimeout 
+
 console.log("start");
 
 setTimeout(function(){
@@ -248,10 +248,11 @@ setTimeout(function(){
 }, 0);
 
 console.log("end");
-*/
 
-// EP - 16 Higher oder functions
-/*
+
+
+EP - 16 Higher oder functions
+
 const radius = [3,1,2,4];
 const calculateArea = function (radius) {
     const output = [];
@@ -269,10 +270,10 @@ const calculateCircumference = function (radius) {
     }
     return output;
 }
-console.log( calculateCircumference(radius)); */
+console.log( calculateCircumference(radius)); 
 
 // to make the things more modular and re-usable
-/*
+
 const radius = [3,1,2,4];
 
 const area  = function(radius){
@@ -305,7 +306,7 @@ console.log(calculate(radius,diameter));*/
 
 
 //map
-/*
+
 const arr = [ 5,1,3,2,6 ];
 
 //Tranformations ->
@@ -320,20 +321,20 @@ function triple(x){
     return x*3;
 }
 
-// function binary(x){
-//     return x.toString(2);
-// }
+function binary(x){
+    return x.toString(2);
+}
 
-// const output = arr.map(double);
-// // console.log(output);
-// const output = arr.map(triple);
-// console.log(output);
+const output = arr.map(double);
+console.log(output);
+const output = arr.map(triple);
+console.log(output);
 const output = arr.map((x) => x.toString(2) );
     
 console.log(output);
-*/
 
-/* filter
+
+/* filter */
 
 const arr = [ 5,1,3,2,6];
 
@@ -351,20 +352,20 @@ function great (x) {
 const output = arr.filter( (x) => x < 4 );
 
 console.log(output);
-*/
 
-/* reduce 
+
+/* reduce */
 
 const arr = [5,1,3,2,6];
 
-// function findSum(arr){
-//     let sum = 0;
-//     for(let i=0;i<arr.length;i++){
-//         sum+=arr[i];
-//     }
-//     return sum;
-// }
-// console.log(findSum(arr));
+function findSum(arr){
+    let sum = 0;
+    for(let i=0;i<arr.length;i++){
+        sum+=arr[i];
+    }
+    return sum;
+}
+console.log(findSum(arr));
 
 function findMax(arr){
     let  maxi = 0;
@@ -373,8 +374,8 @@ function findMax(arr){
     }
     return maxi;
 }
-// console.log(findMax(arr));
-/*
+console.log(findMax(arr));
+
 const output = arr.reduce(function (acc, curr){
     acc = acc + curr;
     return acc;
@@ -384,7 +385,7 @@ const output = arr.reduce(function (acc, curr){
     if( curr > acc) acc = curr;
     return acc;
 },0);
-console.log(output); */
+console.log(output); 
 
 const users = [
     { firstName: "Jkkkohn", lastName: "saini", age: 26 },
@@ -394,21 +395,21 @@ const users = [
 ];
 
 
-//const output = users.map( (x) => x.firstName + " "+ x.lastName);
+const output = users.map( (x) => x.firstName + " "+ x.lastName);
 
-// const output = users.reduce(function(acc,curr) {
-//     if( acc[curr.age]){
-//         acc[curr.age] = ++ acc[curr.age];
-//     }
-//     else{
-//         acc[curr.age] = 1;
-//     }
-//     return acc;
-// }, {});
+const output = users.reduce(function(acc,curr) {
+    if( acc[curr.age]){
+        acc[curr.age] = ++ acc[curr.age];
+    }
+    else{
+        acc[curr.age] = 1;
+    }
+    return acc;
+}, {});
 
 
-// const output = users.filter( (x) => x.age<30)
-// .map( (x) => x.firstName);
+const output = users.filter( (x) => x.age<30)
+.map( (x) => x.firstName);
 
 // using reduce
 const output = users.reduce((prev,curr) => {
